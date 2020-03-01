@@ -14,10 +14,16 @@
     <body>
         <div id="root"> </div>
         <script type="text/babel">
-        let city = "tikapur";
-
+        const Hello = () => {
+     
+        return(
+        <div className="heading">
+        <h1> Welcome to React</h1> 
+          </div>
+          )
+        }
             ReactDOM.render(
-             <h1 className ="heading">Hello World {city}</h1>,
+               <Hello />,
               document.getElementById("root")
             );
         </script>
